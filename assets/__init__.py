@@ -40,7 +40,7 @@ def load_assets():
     """
     # Constants
     cwd: Path = Path.cwd()
-    assets_folder = Path.joinpath(cwd, "assets")
+    assets_folder = Path.joinpath(cwd, "AT2/assets")
     image_types = (".jpg", ".png")
 
     # Verify assets folder exists
